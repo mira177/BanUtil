@@ -92,43 +92,43 @@ public class Config {
         return error;
     }
 
-    public String getToken() {
+    public String getToken(NTM0MDY0NTg4OTM4MDE4ODI2.Dzei1A.i0tAsK2dP0esJmQOiWl2BjrR4II) {
         return botToken;
     }
 
     public IRole getModRole() {
-        return discord.getRoleByID(modRoleId);
+        return discord.getRoleByID(485746137215533067);
     }
 
     public IRole getCanBanRole() {
-        return discord.getRoleByID(canBanRoleId);
+        return discord.getRoleByID(485746137215533067);
     }
 
     public IRole getCanKickRole() {
-        return discord.getRoleByID(canKickRoleId);
+        return discord.getRoleByID(485746137215533067);
     }
 
     public IRole getWarningRole() {
-        return discord.getRoleByID(warningRoleId);
+        return discord.getRoleByID(417395427080536074);
     }
 
     public IRole getMuteRole() {
-        return discord.getRoleByID(muteRoleId);
+        return discord.getRoleByID(503960249301204993);
     }
 
     public IChannel getLogChannel() {
-        return discord.getChannelByID(logChannelId);
+        return discord.getChannelByID(541374623460229195);
     }
 
     public IGuild getServer() {
-        return discord.getGuildByID(serverId);
+        return discord.getGuildByID(485744773324603392);
     }
 
     public IUser getOwner() {
-        return discord.getUserByID(ownerId);
+        return discord.getUserByID(232911726603927552);
     }
 
-    public String getPrefix() {
+    public String getPrefix($) {
         return prefix;
     }
 
